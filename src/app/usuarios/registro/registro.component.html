@@ -1,0 +1,32 @@
+<p>Registro de Usuarios</p>
+<form [formGroup]="formulario" (submit)="onSubmit()">
+    <div class="formgroup">
+        <label>Nombres</label> 
+        <input type="text" formControlName="nombres">
+    </div>
+    <div class="formgroup">
+        <label>Apellidos</label> 
+        <input type="text" formControlName="apellidos">
+    </div>
+    <div class="formgroup">
+        <label>Correo</label> 
+        <input type="email" formControlName="correo">
+    </div>
+    <div class="formgroup">
+        <label>contraseña</label> 
+        <input type="password" formControlName="contraseña">
+    </div>
+    <div class="formgroup">
+        <label>dni</label> 
+        <input type="text" formControlName="dni">
+    </div>
+    <div class="formgroup">
+        <label>nickname</label> 
+        <input type="text" formControlName="nickname">
+    </div>
+    <div class="formgroup">
+        <label>fecha</label> 
+        <input type="date" formControlName="fecha">
+    </div>
+    <input type="submit" value="Registrar">
+</form>
