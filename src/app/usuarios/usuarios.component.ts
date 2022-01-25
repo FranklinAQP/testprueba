@@ -19,7 +19,7 @@ export class UsuariosComponent implements OnInit {
   ngOnInit(): void {
     this.usersService.getUsers().subscribe(usuarios =>
       this.usuarios = usuarios
-  
+    )
   }
 
 }

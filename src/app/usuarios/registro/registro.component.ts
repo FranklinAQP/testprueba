@@ -16,7 +16,7 @@ export class RegistroComponent implements OnInit {
       nombres: new FormControl(),
       apellidos: new FormControl(),
       correo: new FormControl(),
-      contraseña: new FormControl(),
+      contrasena: new FormControl(),
       dni: new FormControl(),
       nickname: new FormControl(),
       fecha: new FormControl()

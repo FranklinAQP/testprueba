@@ -2,7 +2,7 @@ export interface User {
     nombres?: string;
     apellidos?: string;
     correo?: string;
-    contraseña?: string;
+    contrasena?: string;
     dni?: string;
     nickname?: string;
     fecha?: Date;
